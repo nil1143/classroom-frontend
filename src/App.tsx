@@ -15,7 +15,6 @@ import routerProvider, {
     UnsavedChangesNotifier,
     DocumentTitleHandler
 } from "@refinedev/react-router";
-import {dataProvider} from "./providers/data";
 // import {Login} from "./pages/login";
 // import {Register} from "./pages/register";
 // import {ForgotPassword} from "./pages/forgot-password";
@@ -30,6 +29,7 @@ import Dashboard from "@/pages/dashboard.tsx";
 import {Home, BookOpen} from "lucide-react";
 import SubjectsList from "@/pages/subjects/list.tsx";
 import SubjectsCreate from "@/pages/subjects/create.tsx";
+import {dataProvider} from "@/providers/data.ts";
 
 
 function App() {
